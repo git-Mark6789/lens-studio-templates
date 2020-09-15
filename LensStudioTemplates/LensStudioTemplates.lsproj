@@ -3,7 +3,7 @@
     "document_id": "gB5z8SEzMTnGC98hPUfw",
     "original_document_id": "gB5z8SEzMTnGC98hPUfw",
     "version": "24",
-    "lastChanged": "1600161398589",
+    "lastChanged": "1600162311504",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -45,6 +45,9 @@
                         "ScreenManager"
                     ],
                     [
+                        "Textures"
+                    ],
+                    [
                         "Textures",
                         "Asset 2"
                     ],
@@ -66,7 +69,10 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1600158992398218:8193"
+                    "1600158992398218:8193",
+                    "1600159842140515:32943",
+                    "1600159842784738:33346",
+                    "1600159890110834:39872"
                 ]
             ]
         },
@@ -406,7 +412,7 @@
                     },
                     {
                         "k": "975",
-                        "v": "23c0e8f4bb799c99dbc091415e44b5cb"
+                        "v": "45b12f533fbb9e76ee5d706456115548"
                     }
                 ],
                 "publicState": {
@@ -414,7 +420,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-09-15T10:51:50",
                         "name": "Public",
-                        "hash": "3a1bdf73d65fe956d576c465cde00f68",
+                        "hash": "912a08c747f06fe1443693f20c0704c2",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -434,7 +440,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-09-15T10:52:13",
                                 "name": "Scripts",
-                                "hash": "01798ce7f4dff5ca10f4afb66e47f852",
+                                "hash": "8dc4f33c238cb78c2a6d5dc98ea56352",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -445,9 +451,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-09-15T11:16:08",
+                                        "lastModified": "2020-09-15T11:28:13",
                                         "name": "ScreenManager.js",
-                                        "hash": "23c0e8f4bb799c99dbc091415e44b5cb",
+                                        "hash": "45b12f533fbb9e76ee5d706456115548",
                                         "children": ""
                                     }
                                 ]
@@ -700,14 +706,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1600159925409330:44125",
-                        "path_list": [
-                            "Scripts",
-                            "ScreenManager"
-                        ]
-                    }
+                "objects": [
+                    "1600159890110834:39872"
                 ]
             }
         },
