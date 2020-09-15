@@ -8,7 +8,12 @@ var t = 0;
 function logTime(eventData)
 {
     t += eventData.getDeltaTime();
-    print(t);
+    print(addOne(t));
+}
+
+function addOne(x)
+{
+    return x + 1;
 }
 
 var updateEvent = script.createEvent("UpdateEvent");
