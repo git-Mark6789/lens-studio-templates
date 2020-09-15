@@ -3,7 +3,7 @@
     "document_id": "gB5z8SEzMTnGC98hPUfw",
     "original_document_id": "gB5z8SEzMTnGC98hPUfw",
     "version": "24",
-    "lastChanged": "1600162311504",
+    "lastChanged": "1600163312901",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -45,9 +45,6 @@
                         "ScreenManager"
                     ],
                     [
-                        "Textures"
-                    ],
-                    [
                         "Textures",
                         "Asset 2"
                     ],
@@ -71,8 +68,7 @@
                 [
                     "1600158992398218:8193",
                     "1600159842140515:32943",
-                    "1600159842784738:33346",
-                    "1600159890110834:39872"
+                    "1600159842784738:33346"
                 ]
             ]
         },
@@ -412,7 +408,7 @@
                     },
                     {
                         "k": "975",
-                        "v": "45b12f533fbb9e76ee5d706456115548"
+                        "v": "434344b76d85390a47bb6b8b66c4c9e6"
                     }
                 ],
                 "publicState": {
@@ -420,7 +416,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-09-15T10:51:50",
                         "name": "Public",
-                        "hash": "912a08c747f06fe1443693f20c0704c2",
+                        "hash": "be2729f0b05f1eaae152941be2b69c68",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -438,9 +434,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-09-15T10:52:13",
+                                "lastModified": "2020-09-15T11:48:21",
                                 "name": "Scripts",
-                                "hash": "8dc4f33c238cb78c2a6d5dc98ea56352",
+                                "hash": "588ab9ec741461a28cdcbc5342e17135",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -451,9 +447,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-09-15T11:28:13",
+                                        "lastModified": "2020-09-15T11:48:21",
                                         "name": "ScreenManager.js",
-                                        "hash": "45b12f533fbb9e76ee5d706456115548",
+                                        "hash": "434344b76d85390a47bb6b8b66c4c9e6",
                                         "children": ""
                                     }
                                 ]
@@ -705,11 +701,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1600159890110834:39872"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",

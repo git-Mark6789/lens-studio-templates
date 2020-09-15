@@ -1,20 +1,38 @@
 // -----JS CODE-----
-//@input float testFloat
-
+//@input SceneObject[] screens;
+//@input int defaultScreenIndex;
 
 var t = 0;
+var i = 0;
 
-// Test
-function logTime(eventData)
+
+init();
+
+function init()
 {
-    t += eventData.getDeltaTime();
-    print(addOne(t));
+    loadScreenByIndex(script.defaultScreenIndex);
 }
 
-function addOne(x)
+function onUpdate(eventData)
 {
-    return x + 1;
+    // update functionality
+}
+
+
+// disable all other screens except the one at index i
+function loadScreenByIndex(i)
+{
+    for(var x = 0; x < script.screens.length; x++)
+    {
+        script.screens[x].enabled = x == i ? true : false;
+    }
+}
+
+// load screen on top of the current screen
+function loadScreenByIndexAdditive(i)
+{
+    script.screens[i].enabled = true;
 }
 
 var updateEvent = script.createEvent("UpdateEvent");
-updateEvent.bind(logTime)
+updateEvent.bind(onUpdate)
